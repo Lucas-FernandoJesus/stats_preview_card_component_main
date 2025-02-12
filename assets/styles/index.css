@@ -22,7 +22,6 @@ body{
   align-items: center;
   background-color: var(--color-background);
   font-family: "Inter" - sans-serif;
-  /* "Lexend Deca", serif; */
 }
 .content{
   display: grid;
@@ -68,7 +67,6 @@ body{
   color: #888;
 } 
 .image{
-  width: 100%;
   border-radius: 0px 20px 20px 0px;
   position: relative;
   overflow: hidden;
@@ -76,7 +74,6 @@ body{
 .image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Garante que a imagem se ajuste ao container */
 }
 .image::after {
   content: '';
@@ -85,7 +82,8 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--color-card-purple-image); /* Cor vermelha com 50% de opacidade */
+  background-color: var(--color-emphasis);
+  opacity: 60%;
 }
 .nav, ul{
   display: flex;
